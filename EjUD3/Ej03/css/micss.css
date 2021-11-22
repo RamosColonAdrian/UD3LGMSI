@@ -1,0 +1,29 @@
+/* Apartado 1*/
+body{
+    background-color: #ffff00;
+}
+
+/* Apartado 2 */
+body{
+    background-image: url(../imagenes/GatoconBotas_1.jpg);
+    background-repeat: repeat-y;
+}
+
+/* Apartado 3 */
+body{
+    background: url(../imagenes/GatoconBotas_1.jpg)  no-repeat center;
+    background-attachment: fixed;
+} 
+
+/* Apartado 4 */
+body{
+    background: url(../imagenes/GatoconBotas_1.jpg) no-repeat center;
+    background-attachment: fixed;
+}
+
+/* Apartado 5 */
+body{
+    background: url(../imagenes/Switzerland_Scenery_Mountains_Lake_Coast_Autumn_535670_1920x1080.jpg) no-repeat center;
+    background-size: cover;
+    background-color: greenyellow;
+}

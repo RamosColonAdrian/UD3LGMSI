@@ -1,0 +1,16 @@
+ul.a{
+    list-style-type:armenian;
+}
+ul.b{
+    list-style-type: decimal-leading-zero;
+}
+ol.c{
+    list-style-type: georgian;
+}
+ol.d li{
+    list-style-image:url(../imagenes/cohete-12.gif);
+    font-size: 50px;
+}
+
+
+
