@@ -7,10 +7,11 @@ ul.b{
 ol.c{
     list-style-type: georgian;
 }
-ol.d li{
-    list-style-image:url(../imagenes/cohete-12.gif);
-    font-size: 50px;
-}
 
+
+ol.d li {
+
+    list-style-image: url(https://mdn.mozillademos.org/files/11981/starsolid.gif);
+  }
 
 
