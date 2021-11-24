@@ -1,0 +1,42 @@
+#contenedor{
+    background-color: aqua;
+    max-width: 1024px;
+    max-height: 1600px;
+    margin: auto;
+}
+
+#cabecera{
+    background-color: blueviolet;
+    height: 150px;
+    max-width:1024px ;
+}
+
+#menu_contenido{
+    background-color: cadetblue;
+
+}
+
+#menu{
+    background-color: tomato;
+    width: 20%;
+    float: left;
+
+}
+
+#contenido{
+    background-color: cornflowerblue;
+    width: 80%;
+    min-height: 518px;
+    float: right;
+    position: static;
+
+
+}
+
+#pie{
+    
+    background-color: darkgray;
+    height: 100px;
+    max-width: 1024px;
+    clear: both;
+}

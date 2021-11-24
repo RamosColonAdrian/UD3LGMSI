@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 226, 173);
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+    background-color: white;
+    border: 1px blue solid;
+    margin-top:50px ;
+    margin-bottom: 40px;
+}
+
+img{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.tercera{
+    margin-top:150px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* <img>son elementos de "inline-block". Esto significa que fluyen en línea como texto, 
+pero también tienen un ancho y una altura como elementos de bloque. */
+

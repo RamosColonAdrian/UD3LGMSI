@@ -1,0 +1,34 @@
+
+
+#tabla {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabla td, #tabla th {
+    border: 1px solid #85a81c;
+    padding: 8px;
+}
+
+#tabla tr:nth-child(odd){
+    background-color: #EAF2D3;
+}
+
+#capt{
+    text-align: center;
+    caption-side: bottom;
+}
+
+#tabla th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #A7C942;
+    color: white;
+}
+
+
+#tabla tr:hover {
+    background-color: #ddd;
+}
