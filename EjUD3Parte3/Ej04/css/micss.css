@@ -1,0 +1,101 @@
+#contenedor{
+    background-color: aqua;
+    max-width: 1024px;
+    max-height: 1600px;
+    margin: auto;
+}
+
+#cabecera{
+    background-color: blueviolet;
+    height: 150px;
+    max-width:1024px ;
+}
+
+#menu_contenido{
+    background-color: cadetblue;
+    max-width: 100% ;
+    max-height: 100% ;
+    
+}
+
+#menu{
+    background-color: tomato;
+    width: 20%;
+    float: left;
+    width:max-content ;
+    width:min-content ;
+    display: inline;
+
+}
+
+#contenido{
+    background-color: cornflowerblue;
+    width: 80%;
+    min-height: 518px;
+    float: right;
+    height: max-content;
+
+}
+
+#pie{
+    
+    background-color: darkgray;
+    height: 100px;
+    max-width: 1024px;
+    clear: both;
+}
+
+#menucont ul li {
+    background-color:#2e518b;
+}
+
+#menucont ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+#menucont ul a {
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+#menucont ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+#menucont ul li:hover {
+  background:#5b78a7;
+}
+
+#menucont ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  padding:0;
+}
+
+#menucont ul ul li {
+  float:none;
+  width:150px
+}
+
+#menucont ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+}
+
+#menucont ul li:hover > ul {
+  display:block;
+}

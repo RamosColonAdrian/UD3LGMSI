@@ -1,0 +1,41 @@
+div#div2 img.img1{
+    /* 
+    corresponde al posicionamiento normal o estático. Si se utiliza este valor, 
+    se ignoran los valores de las propiedades top, right, bottom y left 
+    que se verán a continuación. 
+    */
+    position: static ;
+}
+
+div#div2 img.img2{
+    /* 
+    corresponde al posicionamiento relativo. El desplazamiento de la caja se 
+    controla con las propiedades top, right, bottom y left. 
+    */
+    position: relative;
+    top: 10%; 
+    left: 40%;
+}
+
+div#div2 img.img3{
+    /* 
+    corresponde al posicionamiento absoluto. El desplazamiento de la caja también se 
+    controla con las propiedades top, right, bottom y left, pero su interpretación es
+    mucho más compleja, ya que el origen de coordenadas del desplazamiento depende 
+    del posicionamiento de su elemento contenedor. 
+     */
+    position: absolute;
+    top: 40px; left: 40px;
+}
+
+div#div2 img.img4{
+    /* 
+    Es tratado como un elemento posicionado relativamente hasta que su bloque contenedor 
+    cruza un límite establecido (como por ejemplo dando a top cualquier valor distinto de auto),
+     dentro de su flujo principal (o el contenedor dentro del cual se mueve), desde el cual es 
+     tratado como "fijo" hasta que alcance el borde opuesto de su bloque contenedor. 
+    */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50em;
+}

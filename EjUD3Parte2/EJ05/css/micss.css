@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(203, 146, 226);
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    background-color: white;
+    border: 1px green dotted ;
+    margin-top:30px ;
+    margin-bottom:20px;
+}
+
+img{
+    padding: 50px;
+    margin: auto 10px auto 10px;
+}
+
+
+
+
+
+/* <img>son elementos de "inline-block". Esto significa que fluyen en línea como un texto, 
+pero también tienen un ancho y una altura como elementos de bloque. */
+
