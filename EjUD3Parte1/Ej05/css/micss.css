@@ -1,0 +1,28 @@
+.primerduo1{
+    letter-spacing: 10px;
+}
+.primerduo2{
+    letter-spacing: -1px;
+}
+
+.segundoduo1{
+    line-height: 50px;
+}
+.segundoduo2{
+    line-height: 90%;
+}
+
+.tercerduo1{
+    word-spacing: 20px;
+}
+.tercerduo2{
+    word-spacing: .50rem;
+}
+
+.cuartoduo1{
+    text-shadow:0 0 3px #FF0000, 0 0 5px #0000FF ;
+}
+.cuartoduo2{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;;
+}

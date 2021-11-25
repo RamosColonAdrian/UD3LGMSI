@@ -13,13 +13,17 @@
 
 #menu_contenido{
     background-color: cadetblue;
-
+    max-width: 100% ;
+    max-height: 100% ;
+    
 }
 
 #menu{
     background-color: tomato;
     width: 20%;
     float: left;
+    width:max-content ;
+    width:min-content ;
 
 }
 
@@ -28,8 +32,7 @@
     width: 80%;
     min-height: 518px;
     float: right;
-    position: static;
-
+    height: max-content;
 
 }
 
