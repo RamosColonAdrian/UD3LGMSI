@@ -12,6 +12,10 @@ ol.c{
 ol.d li {
 
     list-style-image: url(https://mdn.mozillademos.org/files/11981/starsolid.gif);
-  }
+    image-resolution:10% ;
+}
+
+
+
 
 
